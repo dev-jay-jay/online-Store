@@ -1,0 +1,10 @@
+.subHeaderTitle{
+    width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    color: #fafafa;
+    font-size: 25px;
+    font-family: monospace;
+    border-radius: 10px;
+    background-color: #282c34;
+}
