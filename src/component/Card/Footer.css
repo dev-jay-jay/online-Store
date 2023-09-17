@@ -1,0 +1,184 @@
+.footer{
+    background-color: #282c34;
+    margin: 0 auto;
+    width: 82rem;
+}
+.footerContent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+.footerForm{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+}
+label{
+    color: #fff;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 500;
+}
+.inputEmail{
+    width: 18rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: 10px;
+}
+.inputEmail::placeholder{
+    padding: 15px;
+    font-family: cursive;
+    font-size: 12px;
+    font-weight: 600;
+}
+.formTextArea{
+    width: 25rem;
+    height: 7rem;
+    border-radius: 20px;
+}
+.formTextArea::placeholder{
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footerSubmitBtn{
+    position: absolute;
+    top: 60%;
+    left: 102%;
+    width: 7rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(13, 213, 13);
+    transition: 0.5s;
+    text-align: center;
+}
+.footerSubmitBtn:hover{
+    font-weight: bold;
+    background-color: rgb(8, 182, 8);
+}
+.backToTop{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    margin: 10px;
+    background-color: rgb(13, 213, 13);
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.linksFooter ul{
+    display: flex;
+    flex-direction: column;
+}
+.linksFooter ul li{
+    list-style: none;
+    margin: 10px;
+}
+.linksFooter ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.linksFooter ul li a:hover{
+    color: rgb(13, 213, 13);
+    text-decoration: underline;
+}
+.headerTopUnorde{
+    flex-wrap: wrap;
+}
+
+.footerTxtHelp, .footerTxtRight{
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footerTxtHelp span{
+    color: rgb(13, 213, 13);
+}
+/* address content*/
+.addressTxtHeader{
+    color: #fff;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 500;
+}
+.img{
+    width: 5rem;
+    height: 5rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.addressTxt{
+    color: #fff;
+    font-family: cursive;
+    font-weight: 400;
+}
+
+/* media queries */
+@media(max-width: 767px) {
+    /* moblie devices */
+    .footer{
+        width: 100%;
+    }
+    .footerForm{
+        margin: 20px;
+    }
+    .inputEmail{
+        width: 20rem;
+    }
+    .inputEmail::placeholder{
+        padding: 10px;
+        font-size: 18px;
+    }
+    .formTextArea{
+        width: 20rem;
+    }
+    .footerSubmitBtn{
+        position: absolute;
+        top: 105%;
+        left: 67%;
+        bottom: 4%;
+    }
+    .headerTopList{
+        margin-top: 10px;
+    }
+    .footerTxtHelp span{
+        color: rgb(13, 213, 13);
+    }
+    .footerTxtRight{
+        width: 88%;
+        text-align: center;
+    }
+}
+
+@media(min-width: 768px) {
+    /* tablet devices */
+    .footer{
+        width: 100%;
+    }
+    .footerSubmitBtn{
+        position: absolute;
+        top: 100%;
+        left: 67%;
+        bottom: 4%;
+    }
+    
+}
+
+@media(min-width: 1024px) {
+    /* default/ desktop devices */
+}
